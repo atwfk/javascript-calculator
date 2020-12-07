@@ -1,50 +1,136 @@
 <html>
-    <head>
-        <title>calculator</title>
-        <script src="script/calculator.js"></script>
-        <link rel="stylesheet" type="text/css" href="CSS/calculator.css">
-    </head>
-    <body>
-        <div class="bg"></div>
-        <div class="main">
-            <form name="form">
-                <input placeholder="0" id="textview" class="textview" name="textview">
-            </form>
-            <table class="table1">
-                <tr>
-                    <td><input class ="but" type="button" value="quadratic equation" onclick="qe()"></td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td><input class ="button" type="button" value="C" onclick="clean()"></td>
-                    <td><input id = "back" class ="button" type="button" value="⌦" onclick="back()"></td>
-                    <td><input class ="button" type="button" value="/" onclick="button('/')"></td>
-                    <td><input class ="button" type="button" value="x" onclick="button('*')"></td>
-                </tr>
-                <tr>
-                    <td><input class ="button" type="button" value="7" onclick="button(7)"></td>
-                    <td><input class ="button" type="button" value="8" onclick="button(8)"></td>
-                    <td><input class ="button" type="button" value="9" onclick="button(9)"></td>
-                    <td><input class ="button" type="button" value="-" onclick="button('-')"></td>
-                </tr>
-                <tr>
-                    <td><input class ="button" type="button" value="4" onclick="button(4)"></td>
-                    <td><input class ="button" type="button" value="5" onclick="button(5)"></td>
-                    <td><input class ="button" type="button" value="6" onclick="button(6)"></td>
-                    <td><input class ="button" type="button" value="+" onclick="button('+')"></td>
-                </tr>
-                <tr>
-                    <td><input class ="button" type="button" value="1" onclick="button(1)"></td>
-                    <td><input class ="button" type="button" value="2" onclick="button(2)"></td>
-                    <td><input class ="button" type="button" value="3" onclick="button(3)"></td>
-                    <td rowspan=5><input id="button1" class ="button" type="button" value="=" onclick="equal()"></td>
-                </tr>
-                <tr>
-                    <td colspan=2><input id="button2" class ="button" type="button" value="0" onclick="button(0)"></td>
-                    <td><input class ="button" type="button" value="." onclick="button('.')"></td>
-                </tr>
-            </table>
-        </div>
-    </body>
+  <head>
+    <title>calculator</title>
+    <script src="script/calculator.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/calculator.css" />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="main">
+      <form name="form">
+        <input placeholder="0" id="textview" class="textview" name="textview" />
+      </form>
+      <table class="table1">
+        <tr>
+          <td>
+            <input
+              class="but"
+              type="button"
+              value="quadratic equation"
+              onclick="qe()"
+            />
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>
+            <input class="button" type="button" value="C" onclick="clean()" />
+          </td>
+          <td>
+            <input
+              id="back"
+              class="button"
+              type="button"
+              value="⌦"
+              onclick="back()"
+            />
+          </td>
+          <td>
+            <input
+              class="button"
+              type="button"
+              value="/"
+              onclick="button('/')"
+            />
+          </td>
+          <td>
+            <input
+              class="button"
+              type="button"
+              value="x"
+              onclick="button('*')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" value="7" onclick="button(7)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="8" onclick="button(8)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="9" onclick="button(9)" />
+          </td>
+          <td>
+            <input
+              class="button"
+              type="button"
+              value="-"
+              onclick="button('-')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" value="4" onclick="button(4)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="5" onclick="button(5)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="6" onclick="button(6)" />
+          </td>
+          <td>
+            <input
+              class="button"
+              type="button"
+              value="+"
+              onclick="button('+')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="button" type="button" value="1" onclick="button(1)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="2" onclick="button(2)" />
+          </td>
+          <td>
+            <input class="button" type="button" value="3" onclick="button(3)" />
+          </td>
+          <td rowspan="5">
+            <input
+              id="button1"
+              class="button"
+              type="button"
+              value="="
+              onclick="equal()"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input
+              id="button2"
+              class="button"
+              type="button"
+              value="0"
+              onclick="button(0)"
+            />
+          </td>
+          <td>
+            <input
+              class="button"
+              type="button"
+              value="."
+              onclick="button('.')"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>

@@ -1,44 +1,46 @@
-.table1{
-    margin-top: -18px;
+.table1 {
+  margin-top: -18px;
 }
-body{
-    background: black;
+body {
+  background: black;
 }
-.button, .but{
-    width: 50PX;
-    height: 50PX;
-    font-size: 25PX;
-    margin: 2PX;
-    background: #d0d0d3;
-    border: none;
+.button,
+.but {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  background: #d0d0d3;
+  border: none;
 }
-.but{
-    width: 223px;
+.but {
+  width: 223px;
 }
-#button1{
-    height: 106;
+#button1 {
+  height: 106;
 }
-#button2{
-    width: 106;
+#button2 {
+  width: 106;
 }
-.button:hover, .but:hover{
-    background: #a3a4aa;
+.button:hover,
+.but:hover {
+  background: #a3a4aa;
 }
-.textview{
-    width: 223PX;
-    margin: 5PX;
-    font-size: 25PX;
-    padding: 5PX;
-    border: none;
-    color: black;
-    border-color: #d0d0d3;
-    border-style: solid;
-    margin-top: -5px;
+.textview {
+  width: 223px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: black;
+  border-color: #d0d0d3;
+  border-style: solid;
+  margin-top: -5px;
 }
-.main{
-    position: absolute;
-    left: 40%;
+.main {
+  position: absolute;
+  left: 40%;
 }
-.bg{
-    background-color: black;
+.bg {
+  background-color: black;
 }
